@@ -1,5 +1,5 @@
 html, body {
- font-family: "Noto Serif",cursive:
+ font-family: "Noto Serif",cursive;
   background-color: white;
   color: black;
   font-size:35px;
@@ -31,7 +31,7 @@ footer{
   display:none;
 }
 
-.passo{
+.passo.ativo{
   display:block;
 }
 
@@ -46,19 +46,21 @@ img {
 }
 
 footer {
-  color: COR DA LETRA;
-  font-family: SUA FONT FAMILY DO GOOGLE FONTS DO RODAPÉ;
+  color: black;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   padding: 10px;
   text-align: center;
 }
 
 .nome-link {
-  font-family: SUA FONT FAMILY DO GOOGLE FONTS DO RODAPÉ;
-  color: COR DA FONTE;
+  font-family: "Noto Serif", serif;
+  color: white;
   text-decoration: none;
 }
 
 .nome-link:hover {
   text-decoration: underline;
 }
+  
+ 
