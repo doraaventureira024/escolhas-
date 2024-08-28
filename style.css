@@ -1,0 +1,64 @@
+html, body {
+ font-family: "Noto Serif",cursive:
+  background-color: white;
+  color: black;
+  font-size:35px;
+  display: flex;
+  allign-items: center;
+  margin: 0px;
+  flex-direction: column;
+  background-image: url("fundo.1.jfif");
+  background-size:cover;
+  background-position:center;
+  background-attachment:fixed;
+}
+
+button{
+  font-family: "Roboto", sans-serif;
+  background-color: pink;
+  border: solid 2px pink;
+  border-radius:200px;
+  font-size:30px;
+  margin: 20px;
+  color: #0D1C70;
+}
+
+footer{
+  font-family: "Noto Serif", serif;
+}
+
+.passo{
+  display:none;
+}
+
+.passo{
+  display:block;
+}
+
+main {
+  max-width: 90%;
+  text-align: center;
+  flex: 1;
+}
+
+img {
+  width: 700px;
+}
+
+footer {
+  color: COR DA LETRA;
+  font-family: SUA FONT FAMILY DO GOOGLE FONTS DO RODAPÉ;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.nome-link {
+  font-family: SUA FONT FAMILY DO GOOGLE FONTS DO RODAPÉ;
+  color: COR DA FONTE;
+  text-decoration: none;
+}
+
+.nome-link:hover {
+  text-decoration: underline;
+}
